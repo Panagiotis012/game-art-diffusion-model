@@ -1,45 +1,44 @@
-Game Art Diffusion Model
+# Game Art Diffusion Model
+**Open-source diffusion model for stylized 2D game-art (Hollow-Knight-inspired).**
 
-Open-source diffusion model for stylized 2D game-art (Hollow-Knight-inspired).
+This project aims to train a custom diffusion model capable of generating high-quality, stylized game assets for indie developers.  
+The model focuses on:
 
-This project aims to train a custom diffusion model capable of generating high-quality, stylized game assets for indie developers.
-The model will focus on:
-
-2D characters
-
-enemies / bosses
-
-environment pieces
-
-props
-
-animation-ready frames
-
-stylized silhouettes and shading
+- 2D characters  
+- enemies / bosses  
+- environment pieces  
+- props  
+- animation-ready frames  
+- stylized silhouettes and shading  
 
 The goal is to create an accessible tool for indie game creators who need consistent, stylized art without depending on commercial models.
 
-Status
+---
 
-Work in progress — preparing dataset and training pipeline.
+## Status
+Work in progress — dataset preparation & training pipeline setup.
 
-Planned Deliverables
+---
 
-full model weights (safetensors)
+## Planned Deliverables
+- Full model weights (safetensors)  
+- Dataset curation pipeline  
+- PyTorch training scripts  
+- Inference scripts  
+- HuggingFace model card  
+- LoRA presets for different art styles  
+- Demo notebook  
 
-dataset curation pipeline
+---
 
-PyTorch training scripts
+## Why This Matters
+There is currently no high-quality open-source model specialized in stylized 2D game art.  
+Most indie developers rely on expensive commercial models or manually draw every asset.  
 
-inference scripts
+This project aims to make stylized game-art generation **accessible**, **affordable**, and **creator-friendly** for everyone.
 
-HuggingFace model card
+---
 
-LoRA presets for different art styles
-
-demo notebook
-
-Why
-
-There is no high-quality open-source model specialized in stylized 2D game art.
-This project makes high-quality indie game art generation accessible to everyone.
+## License
+Apache-2.0  
+(You are free to use, modify, and release the weights and code.)
